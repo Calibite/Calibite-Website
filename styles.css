@@ -6,11 +6,24 @@ body {
 	font: inherit;
 	vertical-align: baseline;
     background-color: #2b323cf1;
-    background-image: linear-gradient(337deg, rgba(0,18,66,1) 0%, rgba(52,60,116,0.97) 62%, rgba(87,38,92,1) 100%), url('Space.jpg');
+    background-image: linear-gradient(337deg, rgba(127, 127, 213) 0%, rgba(134, 168, 231) 62%, rgba(145, 234, 228) 100%), url('Space.jpg');
     background-size: cover;
     background-repeat: no-repeat;   
     background-position: center center;
     overflow: hidden;
+}
+
+.message {
+    color: white !important;
+    background-image: linear-gradient(144deg,#7F7FD5, #86A8E7 50%,#91EAE4);
+    border: 0;
+    border-radius: 7px;
+    box-shadow: rgba(17, 14, 185, 0.055) 0 2px 6px -1px !important;
+    padding: 7px;
+}
+
+.message:hover {
+    background-image: linear-gradient(144deg, #6E6EC5, #759DD6 50%, #82D0D3);
 }
 
 .container {
@@ -48,7 +61,7 @@ body {
 
 .btn-gradient {
   align-items: center !important;
-  background-image: linear-gradient(144deg,#2544cf, #262c7e 50%,#4a2270) !important;
+  background-image: linear-gradient(144deg,#7F7FD5, #86A8E7 50%,#91EAE4) !important;
   border: 0 !important;
   border-radius: 7px !important;
   box-shadow: rgba(17, 14, 185, 0.26) 0 15px 30px -5px !important;
