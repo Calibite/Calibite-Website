@@ -6,6 +6,8 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
   })
 
-  document.body.addEventListener('touchmove', function(e) {
-    e.preventDefault();
-}, { passive: false });
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    document.body.addEventListener('touchmove', function(e) {
+        e.preventDefault();
+    }, { passive: false });
+}

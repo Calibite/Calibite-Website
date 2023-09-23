@@ -14,6 +14,14 @@ body {
     max-height: 100%;
 }
 
+html, body {
+    overflow: hidden !important;
+    max-height: 100% !important;
+    height: 100% !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+
 .message {
     color: white !important;
     background-image: linear-gradient(144deg,#7F7FD5, #86A8E7 50%,#91EAE4);
