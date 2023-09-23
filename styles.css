@@ -60,7 +60,7 @@ body {
 
 @media (max-width: 1000px) {
     .container h1 {
-        font-size: 23px;
+        font-size: 20px;
     }
     body {
         overflow: hidden !important;
