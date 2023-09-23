@@ -36,6 +36,10 @@ body {
     border-radius: 4px;
 }
 
+.form-control.name-email {
+    margin-bottom: 1vh;
+}
+
 .container {
     width: 100%;
     height: 100vh;
