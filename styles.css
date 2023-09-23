@@ -62,11 +62,12 @@ body {
     .container h1 {
         font-size: 23px;
     }
-    .body {
+    body {
         overflow: hidden !important;
         -webkit-overflow-scrolling: touch !important;
     }
 }
+
 
 .button {
     position: absolute;
